@@ -80,6 +80,27 @@ Resilience:
 - If SMTP not configured, email sending is mocked with clear status.
 
 ---
+## Screenshots
+
+### Job Description
+![Job Description](assets/job_desc.png)
+
+### Upload Resumes
+![Upload Resumes](assets/upload_resumes.png)
+
+### Review Candidates
+![Select Candidates](assets/select_candidates.png)
+
+### Scheduled Interview Page
+![Scheduled Interview Page](assets/scheduled_interview_page.png)
+
+### Calendar Scheduling
+![Calendar Scheduling](assets/calendar_scheduling.png)
+
+### Interview Confirmation Mail
+![Interview Confirmation Mail](assets/interview_confirmation_mail.png)
+
+---
 
 ## 🖥️Local Setup
 
