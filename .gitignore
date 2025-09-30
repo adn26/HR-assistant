@@ -1,0 +1,11 @@
+# Backend secrets and tokens
+backend/.env
+backend/credentials.json
+backend/token.pickle
+
+# Python caches
+backend/__pycache__/
+**/.pytest_cache/
+
+# Local venv
+venv/

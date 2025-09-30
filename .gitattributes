@@ -1,0 +1,17 @@
+# Auto normalize text files
+* text=auto
+
+# Keep these as LF in repo (Node/Unix tools)
+*.js  text eol=lf
+*.jsx text eol=lf
+*.ts  text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.mjs text eol=lf
+
+# Binary
+*.png binary
+*.jpg binary
+*.ico binary
+*.svg binary
