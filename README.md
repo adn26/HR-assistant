@@ -1,8 +1,8 @@
-# HR AI Agent – Autonomous Recruitment System
+# 🧑‍💼HR AI Agent – Autonomous Recruitment System
 
 An intelligent, modular AI agent that autonomously parses resumes, ranks candidates against a job description, schedules interviews on Google Calendar, and sends personalized confirmation emails.
 
-## Contents
+## 📑Contents
 - [Features](#features)
 - [Architecture Overview](#architecture-overview)
 - [End-to-End Flow (Agent Lifecycle)](#end-to-end-flow-agent-lifecycle)
@@ -15,7 +15,7 @@ An intelligent, modular AI agent that autonomously parses resumes, ranks candida
 
 ---
 
-## Features
+## ⚙️Features
 - Frontend (Next.js)
   - Job Description entry (context for parsing/ranking)
   - Batch PDF resume upload
@@ -31,7 +31,7 @@ An intelligent, modular AI agent that autonomously parses resumes, ranks candida
 
 ---
 
-## Architecture Overview
+## 🛠️Architecture Overview
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                      Frontend (Next.js)                      │
