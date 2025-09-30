@@ -80,7 +80,7 @@ Resilience:
 - If SMTP not configured, email sending is mocked with clear status.
 
 ---
-## Screenshots
+## 📷Screenshots
 
 ### Job Description
 ![Job Description](assets/job_desc.png)
