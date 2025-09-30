@@ -3,15 +3,15 @@
 An intelligent, modular AI agent that autonomously parses resumes, ranks candidates against a job description, schedules interviews on Google Calendar, and sends personalized confirmation emails.
 
 ## Contents
-- Features
-- Architecture Overview
-- End-to-End Flow (Agent Lifecycle)
-- Local Setup (Backend + Frontend)
-- Configuration (.env and OAuth)
-- API Reference
-- Usage Guide
-- Troubleshooting & FAQs
-- Security Notes
+- [Features](#features)
+- [Architecture Overview](#architecture-overview)
+- [End-to-End Flow (Agent Lifecycle)](#end-to-end-flow-agent-lifecycle)
+- [Local Setup (Backend + Frontend)](#local-setup-backend--frontend)
+- [Configuration (.env and OAuth)](#configuration-env-and-oauth)
+- [API Reference](#api-reference)
+- [Usage Guide](#usage-guide)
+- [Troubleshooting & FAQs](#troubleshooting--faqs)
+- [Security Notes](#security-notes)
 
 ---
 
