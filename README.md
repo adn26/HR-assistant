@@ -66,7 +66,7 @@ Key modules:
 
 ---
 
-## End-to-End Flow (Agent Lifecycle)
+## 🔄End-to-End Flow (Agent Lifecycle)
 1) HR posts Job Description (JD)
 2) HR uploads PDFs; backend parses each resume (LLM-guided extraction)
 3) Backend ranks candidates against JD (LLM evaluation)
@@ -81,7 +81,7 @@ Resilience:
 
 ---
 
-## Local Setup
+## 🖥️Local Setup
 
 Prerequisites
 - Python 3.12
@@ -118,7 +118,7 @@ Frontend
 
 ---
 
-## Configuration (OAuth & Credentials)
+## 🔑Configuration (OAuth & Credentials)
 - OAuth client type must be “Desktop app” for the built-in loopback flow.
 - Place `credentials-desktop.json` anywhere and set `GOOGLE_CREDENTIALS_PATH` to its absolute path.
 - First scheduling triggers OAuth; the app opens a browser. If browser cannot open, it falls back to console flow. After consent, a refreshable `token.pickle` is written at `GOOGLE_TOKEN_PATH` (or next to `scheduler.py` by default).
@@ -129,7 +129,7 @@ Email (optional)
 
 ---
 
-## API Reference
+## 🔗API Reference
 - `POST /job_description/` { job_description: string } → 200 { message, jd }
 - `POST /upload_resumes/` multipart files[] → 200 { candidates[] }
 - `GET /candidates/` → 200 { candidates[] }
@@ -141,7 +141,7 @@ Candidate object (typical fields)
 
 ---
 
-## Usage Guide
+## 📝Usage Guide
 1) Enter a descriptive JD and save.
 2) Upload one or more PDF resumes and process.
 3) Review ranked candidates; optionally quick-select top N.
@@ -154,7 +154,7 @@ Notes
 
 ---
 
-## Troubleshooting & FAQs
+## ❓Troubleshooting & FAQs
 - AI_API_KEY not set → 400 “No valid resumes processed”
   - Fix: set in `backend/.env`, restart backend.
 - Google 400 redirect_uri_mismatch
@@ -168,7 +168,7 @@ Notes
 
 ---
 
-## Security Notes
+## 🛡️Security Notes
 - Secrets (`backend/.env`, credentials JSON, token.pickle) are ignored by Git via root `.gitignore`.
 - LLM outputs are sanitized for JSON extraction, with fallbacks.
 - Avoid uploading PII to third-party services without consent; configure enterprise-grade providers as needed.
